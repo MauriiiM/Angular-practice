@@ -1,0 +1,36 @@
+<div class="outer background">
+  <div class="middle">
+    <form #signup="ngForm" class="inner">
+      <div>
+        <label>First Name</label>
+        <input type="text" required name="firstName">
+      </div>
+
+      <div>
+        <label>Last Name</label>
+        <input type="text" requiredid="lastName" name="lastName">
+        <!-- TODO: remove this: {{model.lastName}} -->
+      </div>
+
+      <div>
+        <label>Email</label>
+        <input type="email" required>
+      </div>
+
+      <div>
+        <label>Password</label>
+        <input type="password" required>
+        <label>Confirm Password</label>
+        <input type="password" required>
+      </div>
+
+      <div style="position:relative">
+        <input type="submit" value="Sign Up">
+        <span style="position: absolute; bottom: 0; right: 0;">
+          <a class="login-link" routerLink="/Login"> Already have an account? Log in </a>
+        </span>
+      </div>
+
+    </form>
+  </div>
+</div>

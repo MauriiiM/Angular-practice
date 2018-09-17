@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+::ng-deep :root {
+  --main-color: rgb(88, 83, 83);
+  --main-hover-color: rgb(105, 105, 105);
+  --accent-color: rgb(237, 103, 134);
+}
+
+body {
+  margin: 0;
+}

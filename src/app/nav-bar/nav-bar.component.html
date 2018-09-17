@@ -1,0 +1,12 @@
+<ul id="nav" class="navigation">
+  <li class="left-li" [routerLinkActive]="['active']" (click)="navigate(leftBttn)">
+    <a routerLink="/Home">{{leftBttn}} </a>
+  </li>
+  <li [routerLinkActive]="['active']" (click)="navigate(rightBttn1)">
+    <a routerLink="/SignUp"> {{rightBttn1}} </a>
+  </li>
+  <li [routerLinkActive]="['active']" (click)="navigate(rightBttn2)">
+    <a routerLink="/Login"> {{rightBttn2}} </a>
+  </li>
+</ul>
+<div class="navigation-placeholder"></div>

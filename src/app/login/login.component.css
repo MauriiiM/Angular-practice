@@ -1,0 +1,95 @@
+::ng-deep :root {
+    --main-color: rgb(88, 83, 83);
+    --main-hover-color: rgb(105, 105, 105);
+    --accent-color: rgb(237, 103, 134);
+  }
+  
+  /************* scrollbar start *************/
+  /* width */
+  ::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--main-hover-color);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-color);
+  }
+  /************ scrollbar end ****************/
+  .background{
+    top: 0;
+    left: 0;
+    /* background-image: url(http://www.cashadvance6online.com/data/archive/img/180859377.png); */
+    height: 95.4vh;
+    width: 100vw;
+  }
+  
+  .outer {
+    display: table;
+    align-items: center;
+  }
+  
+  .middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .inner {
+    margin: auto;
+    flex: 0 0 auto;
+    max-height: 50%;
+    width: 30%;
+    align-items: center;
+    border: 2px solid var(--main-color);
+    border-radius: 12px;
+    overflow-y: auto;
+    background-color: whitesmoke;
+    padding: 1%;
+  }
+  
+  .signup-link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: block;
+    padding-top: 2px
+  }
+  
+  input {
+    width: 90%;
+    height: 28px;
+    margin-bottom: 25px;
+    
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    outline: none;
+    
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input:focus {
+    border-color: var(--accent-color);
+  }
+  
+  input[type="submit"] {
+    width: 25%;
+    height: 35px;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--accent-color);
+    outline-color: var(--main-color);
+  }
+  
+  label {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
